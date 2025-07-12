@@ -1,0 +1,171 @@
+
+ body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('images/mountain.jpg') no-repeat center center/cover;
+  filter: blur(2px);
+  z-index: -1;
+}
+body{
+    color: aliceblue;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px 40px;
+}
+
+.logo {
+  font-size: 28px;
+  color: #ff6600;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 20;
+  margin: 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.search-bar {
+  display: flex;
+  gap: 10px;
+}
+
+.search-bar input {
+  padding: 6px 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+.search-bar button {
+  padding: 6px 12px;
+  background-color: #ff6600;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 40px;
+}
+
+.course-info {
+  max-width: 50%;
+  margin: 80px 80px;
+}
+
+.course-info h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+ 
+  
+}
+
+.course-info h1 span {
+  color: #ff6600;
+}
+
+.course-info p {
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: bold;
+  
+}
+.course-info p span{
+  font-family: sans-serif;
+  font-weight: bolder;
+  color: #ff6600;
+}
+
+.join-us {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #ff6600;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.login-form {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 300px;
+  margin: 50px 50px;
+}
+
+.login-form h2 {
+  margin-bottom: 20px;
+}
+
+.login-form input {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 4px;
+}
+
+.login-form button {
+  width: 60%;
+  padding: 10px;
+  background-color: #ff6600;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+  
+}
+
+.login-form p {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.login-form a {
+  color: #ff6600;
+  text-decoration: none;
+}
+
+.social-login {
+  margin-top: 15px;
+  display: flex;
+  gap: 15px;
+}
+
+.social-login a {
+  color: white;
+  font-size: 20px;
+  background-color: #333;
+  padding: 10px;
+  border-radius: 50%;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.social-login a:hover {
+  background-color: #ff6600;
+}
